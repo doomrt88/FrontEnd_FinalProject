@@ -1,40 +1,83 @@
-body{
-  margin:0;
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-li a{
+/* h1{
+  font-size: 70px;
+  font-family:'Anton', sans-serif; 
+  margin: 20px;
+}
+.city{
+  font-size: 70px;
+} */
+
+
+li a {
   box-sizing: border-box;
-    text-decoration: none;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  display: block;
+  color: white;
+  text-shadow: 0.5px 0.5px black;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 22px;
+}
+
+.nav-static {
+  position: fixed;
+}
+.main-container {
+  background-image: url("../images/HomeImage.jpg");
+  background-repeat: round;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.shopping-cart {
+  margin-left: 30px;
+}
+
+.shopping-cart__cart {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shopping-cart__number {
+  position: absolute;
+    font-size: 10px;
+    top: 29%;
+    left: 47%;
 }
 
 li a:hover:not(.active) {
-    color: blue;
-  }
+  color: blue;
+}
 
 nav {
-    display: flex;
-    box-sizing: border-box;
-    justify-content: space-between;
-    align-items: center;
-    list-style-type: none;
-    background-color: #F2F2F2;
-    height: 140px;
-    padding: 10px 20px 10px 20px;
-    width: 100%;
-    position: fixed;
-    background-color: #dadada1f;
-  }
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  background-color: #f2f2f2;
+  height: 140px;
+  padding: 10px 20px 10px 20px;
+  width: 100%;
+  background-color: #dadada1f;
+}
 
-li{
-    display:inline;
-    float:left;
-    width: 160px;
-  }
+li {
+  display: inline;
+  float: left;
+}
 
 .active {
-    color: rgb(198, 16, 16);
-  }
+  color: rgb(198, 16, 16);
+}
