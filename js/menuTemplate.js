@@ -3,12 +3,12 @@ template.innerHTML = `<nav class="nav-static">
 <img src="images/logo.png" alt="Logo" width="150px" />
 <ul>
   <li></li>
-  <li><a class="active" href="index.html">Home</a></li>
-  <li><a href="menu.html">Menu</a></li>
-  <li><a href="About Us.html">About Us</a></li>
-  <li><a href="Store Locator.html">Store Locator</a></li>
-  <li><a href="Contact.html">Contact</a></li>
-  <li><a href="">Log In</a></li>
+  <li><a class="menuOptionActive" href="index.html">Home</a></li>
+  <li><a class="menuOption" href="menu.html">Menu</a></li>
+  <li><a class="menuOption" href="About Us.html">About Us</a></li>
+  <li><a class="menuOption" href="Store Locator.html">Store Locator</a></li>
+  <li><a class="menuOption" href="Contact.html">Contact</a></li>
+  <li><a class="menuOption" href="">Log In</a></li>
   <li class="shopping-cart">
     <a href="" class="shopping-cart__cart">
       <span class="shopping-cart__number">2</span
@@ -114,3 +114,5 @@ class Menu extends HTMLElement
 }
 
 customElements.define('menu-component',Menu);
+
+

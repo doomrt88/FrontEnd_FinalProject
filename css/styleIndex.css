@@ -78,6 +78,10 @@ li {
   float: left;
 }
 
+a:visited {
+  color: rgb(214, 132, 132);
+}
+
 .active {
   color: rgb(198, 16, 16);
 }
